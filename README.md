@@ -57,13 +57,13 @@ Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
-### Program:
+## Program:
 ```
 /*
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-Developed by: Maheswaran.k
-RegisterNumber: 212222110023
-
+Developed by: MAHESWARAN.K
+RegisterNumber: 212222110023 
+*/
 module sample(a,b,yand,yor,ynot,yxor,ynand,ynor,yxnor);
 input a,b;
 output yand,yor,ynot,yxor,ynand,ynor,yxnor;
@@ -75,15 +75,16 @@ nand(ynand,a,b);
 nor(ynor,a,b);
 xnor(yxnor,a,b);
 endmodule
-*/
 ```
-### Logic symbol & Truthtable
-![image](https://github.com/MAHESWARAN2004/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/119478181/7ffa9dd9-4a77-492c-9c92-7d16610dea90)
+## Truthtable:
+![image](https://github.com/22009011/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/118343461/b749100a-0001-43d5-9716-69a3a29e71da)
 
-### RTL realization
-![image](https://github.com/MAHESWARAN2004/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/119478181/443fb1bf-d370-409c-8830-9d21a885ddcb)
 
-### Output:
-![image](https://github.com/MAHESWARAN2004/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/119478181/9746079f-d3ee-4bc0-bf2b-c528d92bab78)
-### Result:
+## RTL realization:
+![digital](https://github.com/22009011/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/118343461/7f06832f-baea-4383-8969-f181bc7783d9)
+
+## Output:
+![digital wave form 1](https://github.com/22009011/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/118343461/a7508bdf-bb33-443c-a7af-864466bce7d2)
+
+## Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
